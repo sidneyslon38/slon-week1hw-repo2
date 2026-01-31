@@ -53,7 +53,17 @@ body {
     text-align: center;
     font-size: 18px;
     margin-top: 20px;
-    padding: 0
+    padding: 0;
+}
+
+.play-again {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0;
 }
 
 /*********************************************************************
