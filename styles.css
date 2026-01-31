@@ -41,6 +41,14 @@ body {
   display: block;
 }
 
+.ball-image {
+    width: 40px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
 
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
