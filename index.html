@@ -23,3 +23,33 @@
 </head>
 
 <body>
+<div class="header">
+    <h1>Try Your Luck</h1>
+    <br>
+    <h3>Can You Find The Ball Under The Cup?</h3>
+</div>
+
+<div class="cup-row" id="cup-row"></div>
+
+<script>
+    const cupImageUrl = "<img src="https://www.clipartmax.com/png/middle/27-276532_silver-cup-clip-art-clipart-upside-down-glass.png" alt="Silver Cup Clip Art - Clipart Upside Down Glass@clipartmax.com">";
+
+    const row = document.getElementById("cup-row");
+    const cups = Array.from({ length: 3 }, () => {
+        const img = document.createElement("img");
+        img.src = cupImageUrl;
+        img.alt = "Upside-down cup";
+        img.className = "cup-image";
+        return img;
+    });
+
+    for (let i = cups.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [cups[i], cups[j]] = [cups[j], cups[i]];
+    }
+
+    cups.forEach((cup) => row.appendChild(cup));
+</script>
+
+
+</body>
