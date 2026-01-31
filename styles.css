@@ -31,7 +31,7 @@ body {
 .cup-row {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 20px;
   padding-top: 16px;
 }
 
