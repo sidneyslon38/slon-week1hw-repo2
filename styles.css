@@ -49,6 +49,11 @@ body {
     margin-top: 200px;
 }
 
+.bottom-message {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
 
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
